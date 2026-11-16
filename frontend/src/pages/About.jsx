@@ -1,0 +1,1 @@
+export default function About(){return <section className="panel"><h1>About HomeSense</h1><p>HomeSense is an educational full-stack demonstration of explainable, rule-based AI for common smart-home device troubleshooting.</p><p>Always follow manufacturer safety instructions. Do not open electrical equipment or attempt repairs involving mains voltage.</p></section>}

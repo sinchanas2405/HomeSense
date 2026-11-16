@@ -1,0 +1,1 @@
+export default function AlgorithmFlow({steps=[]}){return <div className="steps">{steps.map((s,i)=><div className="step" key={i}>{i+1}. {s}</div>)}</div>}

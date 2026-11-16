@@ -1,0 +1,1 @@
+export default function RuleCard({rule}){return <article className="panel"><b>{rule.name}</b><p>If {rule.conditions.join(' AND ')}, then {rule.conclusion}.</p><small>{rule.description}</small></article>}

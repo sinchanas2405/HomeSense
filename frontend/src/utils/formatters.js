@@ -1,0 +1,1 @@
+export const dateTime=v=>v?new Date(v).toLocaleString():'—';

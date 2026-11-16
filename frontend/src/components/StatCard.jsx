@@ -1,0 +1,1 @@
+export default function StatCard({label,value,icon='⌂'}){return <div className="stat"><span>{icon}</span><small>{label}</small><strong>{value??0}</strong></div>}

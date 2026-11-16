@@ -1,0 +1,1 @@
+CASES=[{'name':'power symptom','symptoms':['device_not_powering'],'expected_rule':'R1'},{'name':'network symptom','symptoms':['frequent_disconnects'],'expected_rule':'R2'},{'name':'thermal symptom','symptoms':['overheating'],'expected_rule':'R3'},{'name':'unknown symptom','symptoms':['unknown'],'expected_rule':None}]

@@ -1,0 +1,1 @@
+export default function AIFormulation(){return <section className="panel"><h1>AI formulation</h1><p>Represent observations as propositional facts and troubleshooting knowledge as IF–THEN rules. The inference engine applies forward chaining to derive candidate faults and backward chaining to test hypotheses.</p></section>}

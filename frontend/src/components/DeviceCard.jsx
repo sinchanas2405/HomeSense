@@ -1,0 +1,1 @@
+export default function DeviceCard({device,onDelete}){return <article className="panel"><div className="row"><h3>{device.name}</h3><span className="pill">{device.status}</span></div><p>{device.device_type} · {device.room||'Room not set'}</p><button className="danger" onClick={()=>onDelete(device.id)}>Remove</button></article>}

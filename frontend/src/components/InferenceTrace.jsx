@@ -1,0 +1,1 @@
+export default function InferenceTrace({trace=[]}){return <ol>{trace.map((x,i)=><li key={i}>{x}</li>)}</ol>}

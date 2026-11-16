@@ -1,0 +1,1 @@
+export default function Footer(){return <footer>HomeSense · AI-assisted smart home troubleshooting</footer>}
